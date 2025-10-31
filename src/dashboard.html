@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+    <h1>Dashboard del jugador</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="#Perfil">Perfil</a></li>
+        <li><a href="#Estadisticas">Estadísticas</a></li>
+        <li><a href="#Configuracion">Configuración</a></li>
+        <li><a href="#Ajedrez">Ajedrez</a></li>
+    </ul>
+</nav>
+<main>
+    <section class="card">
+        <h2>Estadísticas de Partida</h2>
+        <img class="avatar1" src="avatar.jpg" height="100px" width="100px"/>
+        <div class="avatar2">🏅 | Nvl. 50</div>
+        <table>
+            <tbody>
+            <tr>
+                <td>Modo de juego</td>
+                <td>Victorias</td>
+                <td>Derrotas</td>
+                <td>K/D Ratio</td>
+                <td>Tiempo jugado (total)</td>
+            </tr>
+            <tr>
+                <td>Duelo 1vs1</td>
+                <td>150</td>
+                <td>75</td>
+                <td>2.0</td>
+                <td>50 horas</td>
+            </tr>
+            <tr>
+                <td>Equipos 2vs2</td>
+                <td>320</td>
+                <td>150</td>
+                <td>2.13</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Rey de la colina</td>
+                <td>80</td>
+                <td>40</td>
+                <td>2.0</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Totales</td>
+                <td>550</td>
+                <td>265</td>
+                <td>2.07 (Media)</td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+        <h2>Inventario Rápido</h2>
+        <dl>
+            <dt></dt>
+            <dd></dd>
+            <dt></dt>
+            <dd></dd>
+            <dt></dt>
+            <dd></dd>
+        </dl>
+    </section>
+
+    <section class="card">
+        <h2>Configuración de la Cuenta</h2>
+        <form>
+            <fieldset>
+                <label for="email">Email:</label> <input type="text" id="email" name="e_mail" placeholder="ejemplo@gmail.com" required/>
+                <label for="email">Fecha de nacimiento:</label> <input type="date" id="date" name="birthday" />
+                <label for="volume">Volumen del juego:</label> <input type="range" min="0" max="100" id="volume"
+                                                                      name="vol"/>
+                <label for="color">Color de perfil:</label> <input type="color" id="color" name="rgb"/>
+                <label for="password">Patrón de contraseña (opcional):</label> <input type="password" id="password"
+                                                                                      name="pass_word" maxlength="4"/>
+                <label for="terms">Acepto los términos:</label> <input type="checkbox" id="terms" name="term" required/>
+                <input type="submit" value="Send Request"/>
+            </fieldset>
+        </form>
+    </section>
+    <section class="card">
+        <h2>Tablero de desafíos</h2>
+
+        <table class="ajedrez">
+            <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+</main>
+<main></main>
+<footer></footer>
+
+
+</body>
+</html>
